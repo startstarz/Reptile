@@ -1,4 +1,4 @@
-MODNAME		                        ?= reptile_module
+MODNAME		                        ?= scsi_zmod
 CONFIG_FILE                         := $(src)/../.config
 
 include $(CONFIG_FILE)
