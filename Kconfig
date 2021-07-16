@@ -34,7 +34,7 @@ menu "Name used in file tampering tags"
     
     config TAG_NAME
         string "Tag name that hide file contents"
-        default "reptile"
+        default "fileZ"
                 
     comment "END"
 endmenu
@@ -50,7 +50,7 @@ config CONFIG_HIDE_DIR
 menu "Hide name (needed to create Reptile's folder)"
     config HIDE
         string "Hide name"
-        default "reptile"
+        default "fileZ"
             
     comment "END"
 endmenu
